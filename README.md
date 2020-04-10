@@ -6,6 +6,6 @@ echo "# test" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/cl9000/test.git
+git remote add origin https://github.com/cl9000/launchctl-demo.git
 git push -u origin master
 ```           
