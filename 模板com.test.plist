@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Label唯一的标识 -->
+    <key>Label</key>
+    <string>com.test</string>
+
+    <!-- 要运行的程序， 如果省略这个选项，会把ProgramArguments的第一个
+    元素作为要运行的程序 -->
+    <key>Program</key>
+    <string>/Users/weichanglu/Desktop/launchctl-demo/testShell.sh</string>
+
+    <!-- 指定要运行的脚本 -->
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/weichanglu/Desktop/launchctl-demo/testShell.sh</string>
+    </array>
+
+    <!-- 指定运行的时间 -->
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Minute</key>
+        <integer>30</integer>
+
+        <key>Hour</key>
+        <integer>9</integer>
+
+        <key>Day</key>
+        <integer>1</integer>
+
+        <key>Month</key>
+        <integer>5</integer>
+
+        <!-- 0和7都指星期天 -->
+        <key>Weekday</key>
+        <integer>0</integer>
+    </dict>
+
+    <!-- 运行间隔，与StartCalenderInterval使用其一，单位为秒 -->
+    <key>StartInterval</key>
+    <integer>3</integer>
+
+    <!-- 标准输入文件 -->
+    <key>StandardInPath</key>
+    <string>/Users/uniflor/runin.log</string>
+
+    <!-- 标准输出文件 -->
+    <key>StandardOutPath</key>
+    <string>/Users/weichanglu/Desktop/launchctl-demo/success.log</string>
+
+    <!-- 标准错误输出文件，错误日志 -->
+    <key>StandardErrorPath</key>
+    <string>/Users/weichanglu/Desktop/launchctl-demo/error.log</string>
+</dict>
+</plist>
