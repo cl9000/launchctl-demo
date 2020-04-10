@@ -2,6 +2,8 @@
 
 [Mac中的定时任务launchctl ](https://cl9000.github.io/2017/04/09/Mac-%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1-launchctl/)
 
+##### 操作命令
+```
 # 加载任务, -w选项会将plist文件中无效的key覆盖掉，建议加上
 $ launchctl load -w com.test.plist
 
@@ -16,7 +18,7 @@ $ launchctl start com.test.plist
 
 # 结束任务
 $ launchctl stop com.test.plist
-
+```
 
 
 ```
