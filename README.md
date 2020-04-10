@@ -4,6 +4,9 @@
 
 ##### 操作命令
 ```
+# 操作路径
+$ cd ~/Library/LaunchAgents
+
 # 加载任务, -w选项会将plist文件中无效的key覆盖掉，建议加上
 $ launchctl load -w com.test.plist
 
