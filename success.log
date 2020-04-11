@@ -1,0 +1,7 @@
+Fri Apr 10 12:00:00 CST 2020
+Sat Apr 11 12:24:03 CST 2020
+<br />
+<b>Warning</b>:  file_get_contents(): php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known in <b>/Library/WebServer/Documents/phpMyProjects/DirectoryLister-master/bingIndex.php</b> on line <b>12</b><br />
+<br />
+<b>Warning</b>:  file_get_contents(http://cn.bing.com/HPImageArchive.aspx?format=js&amp;idx=0&amp;n=1): failed to open stream: php_network_getaddresses: getaddrinfo failed: nodename nor servname provided, or not known in <b>/Library/WebServer/Documents/phpMyProjects/DirectoryLister-master/bingIndex.php</b> on line <b>12</b><br />
+Sat Apr 11 15:51:00 CST 2020

@@ -20,9 +20,9 @@
     <!-- 指定运行的时间 -->
     <key>StartCalendarInterval</key>
     <dict>
-        <!-- 每日12：00点执行 -->
+        <!-- 每日10：00点执行 -->
         <key>Minute</key>
-        <integer>26</integer>
+        <integer>00</integer>
         <key>Hour</key>
         <integer>10</integer>
     </dict>
